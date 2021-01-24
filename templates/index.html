@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resigo</title>
+    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+<body>
+    <div class="head">
+        <div class="container">
+            <h1>Resigo</h1>
+            <p class="lead">Some Good Tagline</p> <br>
+            <form action="/results" method="POST">
+                <select name="location" id="location" class="form-control">
+                    <option value="" disabled>Choose Location</option>
+                    <option value="Brooklyn">Brooklyn</option>
+                    <option value="Manhattan">Manhattan</option>
+                    <option value="Bronx">Bronx</option>
+                    <option value="Staten Island">Staten Island</option>
+                    <option value="Queens">Queens</option>
+                </select> <br>
+                <select name="price" id="location" class="form-control">
+                    <option value="" disabled>Choose Price</option>
+                    <option value="50">50$</option>
+                    <option value="100">100$</option>
+                    <option value="250">250$</option>
+                    <option value="500">500$</option>
+                    <option value="1000">1000$</option>
+                </select> <br>
+                <select name="type" id="location" class="form-control">
+                    <option value="" disabled>Choose Type of apartment</option>
+                    <option value="Shared room">Shared Room</option>
+                    <option value="Entire room">Entire Room</option>
+                    <option value="Private room">Private Room</option>
+                </select> <br>
+                <input type="submit" value="Submit" class="btn btn-primary">         
+            </form>
+        </div>
+    </div>
+</body>
+</html>
